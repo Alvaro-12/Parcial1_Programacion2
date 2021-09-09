@@ -10,18 +10,19 @@ namespace AlvaroDaniloLopezTejada.Controllers
     {
         // GET: Index
         //[HttpPost]
-        public ActionResult Index(/*double Monto*/)
+        public ActionResult Index()
         {
-            //if()
+
+            //if ()
             //{
 
 
-            //    return Aporbado();
+            //    return Redirect("/Index/Aprobado");
             //}
-            //else 
+            //else
             //{
 
-            //    return Error();
+            //    return Redirect("/Index/Error");
             //}
             return View();
         }
