@@ -9,19 +9,25 @@ namespace AlvaroDaniloLopezTejada.Controllers
     public class IndexController : Controller
     {
         // GET: Index
-        public ActionResult Index()
+        //[HttpPost]
+        public ActionResult Index(/*double Monto*/)
         {
-            if ()
-            {
-                return Aporbado();
-            }
-            else 
-            {
+            //if()
+            //{
 
-                return Error();
-            }
-   
+
+            //    return Aporbado();
+            //}
+            //else 
+            //{
+
+            //    return Error();
+            //}
+            return View();
         }
+
+
+
         public ActionResult Aporbado()
         {
 
